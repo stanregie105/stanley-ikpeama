@@ -6,6 +6,7 @@ const About =()=>(
          <div className='col-sm-2 '>
          </div>
         <div className="col-sm-8 my-auto">
+            <h2>About me</h2>
           <p>I am a team player with a user-centric approach to problems.I have worked and built 
               projects with in demand technologies spanning from web development to artificial intelligence,from
               which i have garnered a repertoire of knowledge that has shapened me today.
