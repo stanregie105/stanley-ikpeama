@@ -1,0 +1,19 @@
+.mago{
+    height: 180px;
+    width: 180px;
+    border-radius: 50px;
+}
+
+.card-top{
+    margin-bottom: 45px;
+}
+
+.bloke{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bond{
+    margin-top: 65px;
+}

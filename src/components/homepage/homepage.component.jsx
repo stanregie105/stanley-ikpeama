@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { withRouter} from 'react-router-dom';
 import {Card, CardImg, CardImgOverlay, CardTitle} from 'reactstrap';
-
+import './homepage.css';
 
 
 class HomePage extends Component{
@@ -24,7 +24,7 @@ class HomePage extends Component{
             <div key={image.name} className='col-12 col-md-6 profile'>
 
                 <Card >
-             <CardImg width='30%' src ={ image.image} alt={image.name}/>
+             <CardImg width='30%' src ={ image.image} alt={image.name} className='mago'/>
                 <CardImgOverlay>
                  <CardTitle>{image.name}</CardTitle>
              </CardImgOverlay>
@@ -35,14 +35,16 @@ class HomePage extends Component{
         return(
          <React.Fragment>
             
-          <div className='row'>
-                <div className='col-12 col-md-6'>
+          <div className='row bloke'>
+                <div className=' col-md-6 bond'>
                       <h1 className='name'>Ikpeama Stanley</h1>
                       <p>A detailed oriented user-centric engineer,
                             with a knack for analyzing and solving problems to meet stipulated design patterns.
                       </p>
                       </div>
-              {picture}
+                      <div className='col-md-6 card-top'>
+                         {picture}
+                       </div>
                
           </div>
       
